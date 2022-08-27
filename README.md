@@ -1,13 +1,4 @@
-<<<<<<< HEAD
 
-      ||                                                         '||            
-      ||     ''                                                   ||            
-    ''||''   ||  `||''|,  .|''|, .|''|, '\\    //` .|''|, '||''|  || //`  ('''' 
-      ||     ||   ||  ||  ||  || ||..||   \\/\//   ||  ||  ||     ||<<     `'') 
-      `|..' .||. .||  ||. `|..|| `|...     \/\/    `|..|' .||.   .|| \\.  `...' 
-                              ||                                                
-                           `..|'    
-=======
       |''||''|                                                      '||            
          ||     ''                                                   ||            
          ||     ||  `||''|,  .|''|, .|''|, '\\    //` .|''|, '||''|  || //`  ('''' 
@@ -16,10 +7,6 @@
                                  ||                                                
                               `..|'    
                               
-## Getting Started
->>>>>>> 0af3ffc3324a7e616220a740113c3dbd5a39cb63
-
-
 ## Introduction
 This repository contains code for the official blog for tingeworks.com. We like to open source some of our works to demostrate our skills.
 You can find the hosted version of this [here](https://www.tingeworks.com)
