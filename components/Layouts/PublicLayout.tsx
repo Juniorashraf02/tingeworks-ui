@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Navigation from '../Navigation/Navigation';
 
 interface props {
 	title?: string;
@@ -11,7 +12,7 @@ interface props {
 const PublicLayout: NextPage<props> = ({ title, description, children }) => {
 	return (
 		<PublicLayout>
-			
+			<Navigation />
 		</PublicLayout>
 	);
 };
