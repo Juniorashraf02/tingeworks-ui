@@ -1,14 +1,10 @@
 import { FaTelegramPlane, FaTelegram } from 'react-icons/fa';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
+import NavigationButton from '../Buttons/NavigationButton';
 
 const NavigationDesktop: React.FC = (props) => {
-
-	const line1 = useRef();
-
-	const onMenuButtonHover = () => {
-
-	}
+	
 
 	return (
 		<nav className='flex justify-between items-center'>
@@ -48,30 +44,7 @@ const NavigationDesktop: React.FC = (props) => {
 				</li>
 
 				<li className='w-10'>
-					<svg
-						className='cursor-pointer'
-						viewBox='0 0 100 100'
-						xmlns='http://www.w3.org/2000/svg'
-					>
-						<line
-							className='smooth-svg-transform'
-							x1='50'
-							y1='40'
-							x2='100'
-							y2='40'
-							stroke='black'
-							strokeWidth={5}
-						/>
-						<line
-							className='smooth-svg-transform'
-							x1='0'
-							y1='60'
-							x2='100'
-							y2='60'
-							stroke='black'
-							strokeWidth={5}
-						/>
-					</svg>
+					<NavigationButton hover={false} />
 				</li>
 			</ul>
 		</nav>
