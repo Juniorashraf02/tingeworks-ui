@@ -32,7 +32,7 @@ const NavigationMobile: React.FC<props> = (props) => {
 			<ul className='flex gap-8 items-center justify-between'>
 				<li className='text-pinkblood uppercase'>
 					<a href='' className='flex gap-3 items-center'>
-						<span className='font-bold'>Let's talk</span>
+						<span className='font-bold'>Let&apos;s talk</span>
 						<span className='rounded-full bg-pinkblood text-white border h-7 w-7 flex items-center justify-center'>
 							<FaTelegramPlane />
 						</span>
