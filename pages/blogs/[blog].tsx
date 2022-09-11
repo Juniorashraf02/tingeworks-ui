@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-const Articles: NextPage = () => {
+const Blog: NextPage = () => {
 	return (
 		<div>
 			<Head>
@@ -16,4 +16,4 @@ const Articles: NextPage = () => {
 	);
 };
 
-export default Articles;
+export default Blog;

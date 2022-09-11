@@ -3,48 +3,55 @@ import Image from 'next/image';
 import { useRef, useState } from 'react';
 import NavigationButton from '../Buttons/NavigationButton';
 
-const NavigationDesktop: React.FC = (props) => {
-	
+interface navItem {
+	id: number;
+	label: string;
+	url: string;
+}
+
+interface props {
+	navItems: navItem[];
+}
+
+const NavigationDesktop: React.FC<props> = (props) => {
+	const [menuHoverState, setMenuHoverState] = useState(false);
 
 	return (
-		<nav className='flex justify-between items-center'>
+		<nav
+			{...props}
+			className={`hidden bg-white lg:flex justify-between items-center gap-5 pb-2`}
+		>
 			<div>
 				<img
 					className='rounded-full'
-					width={50}
-					height={50}
+					width={60}
+					height={60}
 					src='/favicon.svg'
 				/>
 			</div>
-			<ul className='flex gap-5'>
-				<li>
-					<a href=''>Training</a>
-				</li>
-
-				<li>
-					<a href=''>Projects</a>
-				</li>
-
-				<li>
-					<a href=''>Services</a>
-				</li>
-
-				<li>
-					<a href=''>About</a>
-				</li>
+			<ul className='flex gap-5 uppercase text-sm'>
+				{props.navItems.map((item) => (
+					<li key={item.id}>
+						<a href={item.url}>{item.label}</a>
+					</li>
+				))}
 			</ul>
-			<ul className='flex gap-5 items-center justify-between'>
+			<ul className='flex gap-8 items-center justify-between'>
 				<li className='text-pinkblood uppercase'>
 					<a href='' className='flex gap-3 items-center'>
 						<span className='font-bold'>Let's talk</span>
-						<span className='rounded-full border-pinkblood border h-7 w-7 flex items-center justify-center'>
+						<span className='rounded-full bg-pinkblood text-white border h-7 w-7 flex items-center justify-center'>
 							<FaTelegramPlane />
 						</span>
 					</a>
 				</li>
 
 				<li className='w-10'>
-					<NavigationButton hover={false} />
+					<NavigationButton
+						onMouseLeave={() => setMenuHoverState(false)}
+						onMouseEnter={() => setMenuHoverState(true)}
+						hover={false}
+					/>
 				</li>
 			</ul>
 		</nav>

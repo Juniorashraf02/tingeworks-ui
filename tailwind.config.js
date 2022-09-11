@@ -7,10 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "pinkblood": "#FC2357"
+        "pinkblood": "#FC2357",
+        "londonstreet": "#1E1D32"
       },
       fontFamily: {
         sans: ["Poppins"]
+      },
+      fontSize: {
+        "extra": "10em"
       }
     },
   },
