@@ -1,7 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router'
 
 const Blog: NextPage = () => {
+	const router = useRouter()
+	const { blog } = router.query
 	return (
 		<div>
 			<Head>
@@ -12,6 +15,7 @@ const Blog: NextPage = () => {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+			<p>Post: {blog}</p>
 		</div>
 	);
 };
