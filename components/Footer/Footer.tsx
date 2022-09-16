@@ -3,8 +3,8 @@ function Footer() {
 	return (
 		<div className='bg-black mt-10'>
 			<div className='md:grid md:grid-cols-3 grid-cols-1 gap-8'>
-				<div className='text-white mx-auto md:p-10 p-2'>
-					<h1 className='text-5xl font-medium text-white'>
+				<div className='text-white mx-auto md:p-10 p-5'>
+					<h1 className='text-4xl lg:text-5xl font-medium text-white'>
 						TingeWorks
 					</h1>
 					<p className='text-white font-light my-5 uppercase'>
