@@ -1,17 +1,21 @@
 import { FiArrowUpRight } from 'react-icons/fi';
+import { HiChevronDown } from 'react-icons/hi';
 
 
 
 function Contact() {
 	return (
 		<div className='my-12'>
+			  <p className=" text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20">
+			  ask anything
+		     </p>
 			<h1
-				className='text-4xl uppercase text-center font-bold text-slate-800
+				className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
             '
 			>
 				Contact
 			</h1>
-			<p className='text-center uppercase text-gray-400 font-light'>
+			<p className='text-center uppercase text-slate-700 font-light'>
 				From stupid to technically creative, we are here to answer all
 				the question you have.
 			</p>
@@ -21,17 +25,20 @@ function Contact() {
 						<div className='my-8'>
 							<input
 								type='text'
-								className='border-0 focus:border-0 border-white outline-none'
+								className='border-0 focus:border-0 border-white outline-none bg-transparent'
 								placeholder='Name'
 							/>
 							<hr />
 						</div>
 						<div className='my-8'>
+							<div className="flex justify-between">
 							<input
 								type='text'
-								className='border-0 focus:border-0 border-white outline-none'
+								className='border-0 focus:border-0 border-white outline-none bg-transparent'
 								placeholder='What are you interested in'
 							/>
+							<HiChevronDown className="text-gray-400"/>
+							</div>
 							<hr />
 						</div>
 					</div>
@@ -40,17 +47,22 @@ function Contact() {
 						<div className='my-8'>
 							<input
 								type='text'
-								className='border-0 focus:border-0 border-white outline-none'
+								className='border-0 focus:border-0 border-white outline-none bg-transparent'
 								placeholder='Email'
 							/>
 							<hr />
 						</div>
 						<div className='my-8'>
+							
+							<div className="flex justify-between">
 							<input
 								type='text'
-								className='border-0 focus:border-0 border-white outline-none'
+								className='border-0 focus:border-0 border-white outline-none bg-transparent'
 								placeholder='Project budget'
+
 							/>
+							<HiChevronDown className="text-gray-400"/>
+							</div>
 							<hr />
 						</div>
 					</div>
@@ -58,7 +70,7 @@ function Contact() {
 				<div className='mx-auto w-full'>
 					<input
 						type='text'
-						className='border-0 focus:border-0 border-white w-full outline-none'
+						className='border-0 focus:border-0 border-white w-full outline-none bg-transparent'
 						placeholder='message'
 					/>
 					<hr />
