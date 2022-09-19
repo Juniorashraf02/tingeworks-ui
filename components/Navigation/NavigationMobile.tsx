@@ -2,6 +2,7 @@ import { FaTelegramPlane, FaTelegram } from 'react-icons/fa';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
 import NavigationButton from '../Buttons/NavigationButton';
+import Link from 'next/link';
 
 interface navItem {
 	id: number;
@@ -22,12 +23,14 @@ const NavigationMobile: React.FC<props> = (props) => {
 			className={`flex bg-white lg:block justify-between items-center gap-5 pb-2`}
 		>
 			<div>
-				<img
-					className='rounded-full'
-					width={60}
-					height={60}
-					src='/favicon.svg'
-				/>
+				<Link href="/">
+					<img
+						className='rounded-full cursor-pointer'
+						width={60}
+						height={60}
+						src='/favicon.svg'
+					/>
+				</Link>
 			</div>
 			<ul className='flex gap-8 items-center justify-between'>
 				<li className='text-pinkblood uppercase'>
