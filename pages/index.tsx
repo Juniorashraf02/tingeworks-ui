@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import CTA from '../components/Buttons/CTA';
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
 import PublicLayout from '../components/Layouts/PublicLayout';
 import FloatingText from '../components/Misc/FloatingText';
 import Navigation from '../components/Navigation/Navigation';
@@ -31,7 +33,8 @@ const Home: NextPage = () => {
 				</div>
 			</div>
 
-			<FloatingText>We are expert web engineers</FloatingText>
+			<Contact />
+			<Footer />
 		</PublicLayout>
 	);
 };

@@ -20,6 +20,11 @@ const NavItems = [
 		url: '/projects'
 	},
 	{
+		id: 4,
+		label: 'Blog',
+		url: '/blog'
+	},
+	{
 		id: 2,
 		label: 'Services',
 		url: '/services'
@@ -54,7 +59,7 @@ const Navigation: React.FC<props> = (props) => {
 	return (
 		<animated.nav
 			{...props}
-			className='fixed top-0 left-0 right-0 container mx-auto px-5 lg:px-10 shadow-lg bg-white'
+			className='z-50 fixed top-0 left-0 right-0 container mx-auto px-5 lg:px-10 shadow-lg bg-white'
 		>
 			{Navigation}
 		</animated.nav>

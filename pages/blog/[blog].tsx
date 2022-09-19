@@ -1,7 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router'
 
-const Blogs: NextPage = () => {
+const Blog: NextPage = () => {
+	const router = useRouter()
+	const { blog } = router.query
 	return (
 		<div>
 			<Head>
@@ -12,8 +15,9 @@ const Blogs: NextPage = () => {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+			<p>Post: {blog}</p>
 		</div>
 	);
 };
 
-export default Blogs;
+export default Blog;
