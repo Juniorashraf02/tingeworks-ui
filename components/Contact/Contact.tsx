@@ -20,7 +20,7 @@ function Contact() {
 				the question you have.
 			</p>
 			<div className='flex flex-col justify-around w-8/12 mx-auto'>
-				<div className='md:flex justify-between'>
+				<div className='md:flex justify-around'>
 					<div>
 						<div className='my-8'>
 							<input
@@ -67,7 +67,7 @@ function Contact() {
 						</div>
 					</div>
 				</div>
-				<div className='mx-auto w-full'>
+				<div className='mx-auto p-0 lg:px-16 w-full'>
 					<input
 						type='text'
 						className='border-0 focus:border-0 border-white w-full outline-none bg-transparent'
