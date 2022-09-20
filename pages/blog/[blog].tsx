@@ -1,10 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import Image from 'next/image';
+import Contact from './../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 
 const Blog: NextPage = () => {
-	const router = useRouter()
-	const { blog } = router.query
+	const router = useRouter();
+	const { blog } = router.query;
 	return (
 		<div>
 			<Head>
@@ -16,6 +19,44 @@ const Blog: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<p>Post: {blog}</p>
+
+			<div className="p-5">
+				<div>
+					<h1 className='font-black text-5xl'>
+						UIUX is hard know why
+					</h1>
+					<p className='font-light'>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						ut aliquam
+					</p>
+					<p>
+						<small className='font-light'>
+							September 15, 2022 Monday
+						</small>
+					</p>
+				</div>
+				<div className="my-12 ">
+					<Image
+						src='/f.png'
+						width='1758'
+						height='388'
+						alt='blog-picture'
+					></Image>
+				</div>
+				<div>
+					<p className="mb-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo recusandae, veritatis vero enim voluptates inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur temporibus, omnis cumque saepe ut!</p>
+					<br />
+					<p className="mb-10 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, iste cum perspiciatis aliquid atque odit, voluptatum labore consequatur sed consectetur quia sequi fugiat, quos debitis expedita velit rerum deserunt veniam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, sit eius error delectus aliquid debitis iusto tempora doloribus atque id sequi animi sunt iure voluptatibus distinctio at quod. Magni, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et voluptatum deserunt asperiores tempora quae dolor hic quisquam, facilis sint consequuntur doloremque beatae cumque veritatis provident sequi vero fugiat dicta.</p>
+					<br />
+					<p className="mb-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo laborum ea cupiditate est id consequatur sapiente assumenda tempora, fuga quia architecto quos in recusandae temporibus facilis voluptas accusamus? Sit totam illum modi reiciendis, aut, eius, temporibus voluptas sapiente sunt numquam iure voluptatum accusantium asperiores similique optio animi error distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi quod dicta. Ratione nobis nihil nisi dolorem ipsa est. Repudiandae eaque sunt esse fugit, eveniet soluta aperiam quam nulla enim deleniti omnis! Deleniti dolorum magni provident blanditiis non beatae maxime rerum dolor facilis? Eaque unde repellendus magni eius alias. Eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam iusto magni laborum dolor omnis quidem hic rerum, dolorem quia molestias?</p>
+					<br />
+					<p className="mb-10 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, facere. Necessitatibus, expedita placeat dicta illum numquam explicabo nemo? Error eveniet numquam minima voluptatem molestiae accusamus distinctio amet sunt enim ab?</p>
+				</div>
+			</div>
+
+			<Contact/>
+
+			<Footer/>
 		</div>
 	);
 };
