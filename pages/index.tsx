@@ -33,6 +33,28 @@ const Home: NextPage = () => {
 				</div>
 			</div>
 
+			{/* About section */}
+			<div className='my-12 mx-auto'>
+			  <p className=" text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20">
+			  Passionate
+		     </p>
+			<h1
+				className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
+            '
+			>
+				About Us
+			</h1>
+			<div className='text-center uppercase text-slate-700 font-light'>
+			<p className='h-0'>A brand studio working to mould organic ideas, into sleek creations We work on</p>
+			<br />
+			<p className='h-0'>brand identity digital storytelling, branding tools & importantly just love to create </p>
+			<br />
+			<p>beautiful, unique designs</p>
+			</div>
+
+
+		</div>
+
 			<Contact />
 			<Footer />
 		</PublicLayout>
