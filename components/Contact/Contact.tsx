@@ -5,7 +5,7 @@ import { HiChevronDown } from 'react-icons/hi';
 
 function Contact() {
 	return (
-		<div className='my-12'>
+		<div className='my-12 mx-auto'>
 			  <p className=" text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20">
 			  ask anything
 		     </p>
@@ -20,7 +20,7 @@ function Contact() {
 				the question you have.
 			</p>
 			<div className='flex flex-col justify-around w-8/12 mx-auto'>
-				<div className='md:flex justify-around'>
+				<div className='md:flex justify-around p-5'>
 					<div>
 						<div className='my-8'>
 							<input
@@ -67,7 +67,7 @@ function Contact() {
 						</div>
 					</div>
 				</div>
-				<div className='mx-auto p-0 lg:px-16 w-full'>
+				<div className='mx-auto pl-5 lg:px-16 w-full'>
 					<input
 						type='text'
 						className='border-0 focus:border-0 border-white w-full outline-none bg-transparent'
