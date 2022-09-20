@@ -8,7 +8,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import CTA from '../../components/Buttons/CTA';
 import NavigationButton from '../../components/Buttons/NavigationButton';
 import ButtonGroup from '../../components/Buttons/ButtonGroup';
-import Button from '../../components/Buttons/Button';
+import Button from './../../components/Buttons/Button';
 
 const Blogs: NextPage = () => {
 	return (
@@ -22,12 +22,15 @@ const Blogs: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
+
+
+
 			<div className='mx-auto container px-5 lg:px-10 text-londonstreet bg-slate-100'>
 				<div className='flex flex-col lg:flex-row items-center py-20 mt-10'>
 					<div className='flex-1 p-2'>
 						<h1 className='text-2xl md:text-4xl lg:text-4xl xl:text-5xl font-black'>
 							All our findings and announcements
-						</h1>
+			  			</h1>
 						<p className='pt-4 text-base lg:text-xl text-gray-400 font-light'>
 							Announcements, Jobs, Stories, etc.
 						</p>
