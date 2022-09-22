@@ -74,7 +74,7 @@ function Contact() {
 					<hr />
 				</div>
 
-				<button className='md:w-1/5 mx-auto text-center my-5 md:px-6 px-2 py-2.5 ring-1 ring-gray-500 text-gray-500 text-xs leading-tight rounded-md shadow-md hover:bg-slate-900 hover:shadow-lg focus:bg-slate-900 focus:shadow-lg focus:outline-none focus:text-white focus:ring-0 active:bg-slate-900 active:shadow-lg transition duration-300 ease-in-out flex items-center'>
+				<button className='md:w-48 mx-auto text-center my-5 md:px-6 px-2 py-2.5 ring-1 ring-gray-500 text-gray-500 text-xs leading-tight rounded-md shadow-md hover:bg-slate-900 hover:shadow-lg focus:bg-slate-900 focus:shadow-lg focus:outline-none focus:text-white focus:ring-0 active:bg-slate-900 active:shadow-lg transition duration-300 ease-in-out flex items-center'>
 					<p className='mx-auto'>Just send </p>
 					<FiArrowUpRight className='text-xl' />
 				</button>
