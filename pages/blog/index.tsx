@@ -40,36 +40,42 @@ const Blogs: NextPage = () => {
 			</div>
 
 			<ButtonGroup>
-				{[
-					{
-						key: '01',
-						label: 'All',
-						onclick: () => {
-							alert('Hilo');
-						}
-					}
-				].map((item) => (
-					<Button key={item.key} onClick={item.onclick} type='Pill'>
-						{item.label}
-					</Button>
-				))}
+				<Button
+				types="Pill"
+				url='/blog'
+				text="All"
+				></Button>
+				<Button
+				types="Pill"
+				url='/blog'
+				text="Announcements"
+				></Button>
+				<Button
+				types="Pill"
+				url='/blog'
+				text="Articles"
+				></Button>
+				<Button
+				types="Pill"
+				url='/blog'
+				text="Jobs"
+				></Button>
 			</ButtonGroup>
 
-			<div className='container mx-auto px-5 lg:px-10 py-10'>
-				<div className='grid grid-cols-3 gap-10'>
+			<div className='container mx-auto px-5 lg:px-10 py-10 mb-32'>
+				<div className='grid md:grid-cols-2 gap-10'>
 					<Article
 						src='/f.png'
 						title='UIUX is hard know why'
 						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam'
 						alt='ks'
-						href='/blogs/1'
 					/>
+
 					<Article
 						src='/f.png'
 						title='askfThis is tittle 2s'
-						description='qqqqqq'
+						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam'
 						alt='ks'
-						href='/blogs/2'
 					/>
 				</div>
 			</div>
