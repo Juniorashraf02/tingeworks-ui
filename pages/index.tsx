@@ -34,6 +34,70 @@ const Home: NextPage = () => {
 				</div>
 			</div>
 
+			{/* service section */}
+
+			<div>
+				<p className=' text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20'>
+					Let&apos;s get digital
+				</p>
+				<h1
+					className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
+            '
+				>
+					Passionate
+				</h1>
+				<div className='text-center uppercase text-slate-700 font-light'>
+					<p className='my-10'>
+						ALL YOU NEED FOR ONLINE BUSINESS
+						<br />
+						Web solutions & services at affordable prices
+					</p>
+				</div>
+				<div className='md:flex justify-around items-center'>
+					<div className='flex gap-8 flex-col'>
+						<p>Design solutions</p>
+						<p>Development solutions</p>
+						<p>UI/UX solutions</p>
+						<p>SEO solutions</p>
+					</div>
+					<div className='flex flex-col md:w-96'>
+						<div className='flex gap-5 flex-row'>
+							<Image
+								alt='project image'
+								src='/f.png'
+								width='100'
+								height='350'
+								layout='fixed'
+								className='translate-y-10 rounded-xl'
+							></Image>
+							<Image
+								alt='project image'
+								src='/f.png'
+								width='100'
+								height='350'
+								layout='fixed'
+								className='translate-y-8 rounded-xl'
+							></Image>
+							<Image
+								alt='project image'
+								src='/f.png'
+								width='100'
+								height='350'
+								layout='fixed'
+								className='translate-y-5 rounded-xl'
+							></Image>
+						</div>
+						<div>
+							<p className=''>
+								ALL YOU NEED FOR ONLINE BUSINESS Web solutions &
+								services at affordable prices
+							</p>
+							<p className='text-orange-400'>learn more</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			{/* About section */}
 			<div className='my-12 mx-auto'>
 				<p className=' text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20'>
@@ -49,116 +113,112 @@ const Home: NextPage = () => {
 					<p className='md:h-0'>
 						A brand studio working to mould organic ideas, into
 						sleek creations We work on
-			
-					<br />
-	
+						<br />
 						brand identity digital storytelling, branding tools &
-						importantly just love to create{' '}
-				
-		
-
-				beautiful, unique designs</p>
+						importantly just love to create beautiful, unique
+						designs
+					</p>
 				</div>
 				<div className='my-24 text-center'>
-							<CTA className="mx-auto">Get Quote</CTA>
+					<CTA className='mx-auto'>Get Quote</CTA>
 				</div>
 
-				<div className="flex gap-10">
+				<div className='flex gap-10'>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="-translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='-translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="-translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='-translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="-translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='-translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="-translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='-translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="-translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='-translate-y-10 rounded-xl'
 					></Image>
 					<Image
-					alt="project image"
-					src="/f.png"
-					width="100"
-					height="350"
-					layout="fixed"
-					className="translate-y-10 rounded-xl"
+						alt='project image'
+						src='/f.png'
+						width='100'
+						height='350'
+						layout='fixed'
+						className='translate-y-10 rounded-xl'
 					></Image>
 				</div>
 			</div>
