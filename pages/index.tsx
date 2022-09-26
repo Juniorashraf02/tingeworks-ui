@@ -34,6 +34,49 @@ const Home: NextPage = () => {
 				</div>
 			</div>
 
+
+
+
+
+			{/*  */}
+<div className="my-10">
+				<p className=' text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20'>
+			small to big
+				</p>
+				<h1
+					className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
+            '
+				>
+					Who we work with
+
+				</h1>
+
+
+			<div className="my-12 md:flex gap-5 justify-center mx-5">
+				<div className="bg-rose-400 md:py-24 md:px-12  rounded-md text-white">
+					<p className="text-center py-24 px-10">startup</p>
+				</div>
+					
+					<Image
+					className="rounded-md"
+					alt="image"
+					src="/f.png"
+					height="200"
+					width="200"
+					// layout="responsive"
+					></Image>
+		
+				<div className="bg-rose-400 py-24 px-12 rounded-md text-white">
+					<p className="text-center">MVP</p>
+				</div>
+			</div>
+</div>
+			{/*  */}
+
+
+
+
+
 			{/* service section */}
 
 			<div>
