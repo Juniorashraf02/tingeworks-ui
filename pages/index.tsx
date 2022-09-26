@@ -34,31 +34,134 @@ const Home: NextPage = () => {
 				</div>
 			</div>
 
-
-
-
 			{/* About section */}
 			<div className='my-12 mx-auto'>
-			  <p className=" text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20">
-			  Passionate
-		     </p>
-			<h1
-				className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
+				<p className=' text-gray-200 md:text-9xl text-4xl h-5 font-black uppercase text-center md:h-20'>
+					Passionate
+				</p>
+				<h1
+					className='text-4xl uppercase text-center font-semibold text-slate-800 font-sans
             '
-			>
-				About Us
-			</h1>
-			<div className='text-center uppercase text-slate-700 font-light'>
-			<p className='h-0'>A brand studio working to mould organic ideas, into sleek creations We work on</p>
-			<br />
-			<p className='h-0'>brand identity digital storytelling, branding tools & importantly just love to create </p>
-			<br />
+				>
+					About Us
+				</h1>
+				<div className='text-center uppercase text-slate-700 font-light'>
+					<p className='md:h-0'>
+						A brand studio working to mould organic ideas, into
+						sleek creations We work on
+			
+					<br />
+	
+						brand identity digital storytelling, branding tools &
+						importantly just love to create{' '}
+				
+		
 
-			<p>beautiful, unique designs</p>
+				beautiful, unique designs</p>
+				</div>
+				<div className='my-24 text-center'>
+							<CTA className="mx-auto">Get Quote</CTA>
+				</div>
+
+				<div className="flex gap-10">
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="-translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="-translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="-translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="-translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="-translate-y-10 rounded-xl"
+					></Image>
+					<Image
+					alt="project image"
+					src="/f.png"
+					width="100"
+					height="350"
+					layout="fixed"
+					className="translate-y-10 rounded-xl"
+					></Image>
+				</div>
 			</div>
-
-
-		</div>
 
 			<Contact />
 			<Footer />
