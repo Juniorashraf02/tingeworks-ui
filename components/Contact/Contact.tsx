@@ -19,7 +19,7 @@ function Contact() {
 			</p>
 
 			<div className='flex flex-col mx-auto w-full'>
-				<div className='md:flex justify-around gap-10 mx-auto p-5'>
+				<div className='md:flex justify-around gap-10 md:mx-auto p-5'>
 					<div>
 						<div className='my-8 w-full'>
 							<input
@@ -30,7 +30,7 @@ function Contact() {
 							<hr />
 						</div>
 						<div className='my-8'>
-							<div className='flex justify-between w-full'>
+							<div className='flex md:justify-between md:w-full'>
 								<input
 									type='text'
 									className='border-0 focus:border-0 border-white outline-none bg-transparent w-72'
