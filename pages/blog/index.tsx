@@ -73,7 +73,7 @@ const Blogs: NextPage = () => {
 
 					<Article
 						src='/f.png'
-						title='askfThis is tittle 2s'
+						title='This is tittle 2'
 						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam'
 						alt='ks'
 					/>
